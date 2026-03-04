@@ -1,0 +1,10 @@
+1. 
+mysql> create database database_name；
+mysql -u root -p std_ms < std_ms.sql
+2. 
+cd std_client
+npm install
+npm run serve
+3.
+cd std_server
+open the project with IDEA, then install dependencies and start.

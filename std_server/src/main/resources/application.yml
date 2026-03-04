@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:4306/std_ms?useSSL=false&setUnicode=true&characterEncoding=utf8&useAffectedRows=true
+    username: root
+    password: 123456
+
+mybatis:
+  type-aliases-package: com.hzy.std_server.entity
+  mapper-locations: classpath:mapper/*.xml
+
+server:
+  port: 8078
